@@ -1,14 +1,29 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background: #081a52;
 }
+
 h1 {
   background-position: 0px -15px;
-  color: #3467c7 !important;
-
+  color: #fff !important;
+  margin-top: 30px;
   font-weight: 700;
   font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
   perspective-origin: 60px 11px;
-  transform-origin: 60px 11px;
-  margin: 0px 40px 8px 0px;
-  font-size: 35px;
+  margin-bottom: 10px;
+  font-size: 47px;
+}
+p {
+  font-weight: 400;
+  color: #fff;
+  max-width: 420px;
+  line-height: 40px;
+  margin: auto;
+  font-size: 16px;
+  opacity: 1 !important;
+  font-family: "museo-sans", Helvetica, Arial, sans-serif;
 }
